@@ -1,0 +1,10 @@
+
+<h1>Todos</h1>
+
+<ul>
+  <li *ngFor="let todo of todos">
+    <a routerLink="">{{ todo.id }}</a>
+    <p>{{ todo.title }}</p><br>
+    <p>{{ todo.completed }}</p>
+  </li>
+</ul>
